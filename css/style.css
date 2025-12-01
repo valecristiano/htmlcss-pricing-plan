@@ -16,6 +16,10 @@ img {
   padding: 10px 10px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 /* header */
 .header {
   display: flex;
@@ -26,4 +30,67 @@ img {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
+}
+
+/* main */
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.list > * {
+  padding: 10px 0;
+}
+
+.list {
+  background-color: #ffffff;
+  box-shadow: 2px 2px lightgray;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+ul > * {
+  padding: 10px 0;
+}
+
+.choose-button {
+  margin: 10px auto;
+  background-color: #6501ff;
+}
+
+.professional-card {
+  background-color: #6501ff;
+}
+
+header > h2,
+h2 + p {
+  text-align: left;
+}
+.price {
+  font-weight: 600;
+}
+
+.dollaro {
+  font-size: 14px;
+}
+
+.grey-text {
+  font-size: 12px;
+  color: #e3e3e3;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.badge {
+  background-color: #e3e3e3;
+  border-radius: 8px;
+  padding: 4px;
+  font-size: 14px;
 }
