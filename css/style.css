@@ -28,7 +28,7 @@ ul {
   justify-content: flex-end;
   flex-wrap: wrap;
 }
-.plan-duration {
+div.plan-duration {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -48,7 +48,7 @@ ul {
   width: 15px;
   height: 15px;
   position: absolute;
-  right: 98px;
+  right: 0px;
   border: 1px solid black;
 }
 
@@ -68,7 +68,8 @@ ul {
   width: 15px;
   height: 15px;
   position: absolute;
-  right: 20px;
+  right: -1px;
+  top: -1px;
   border: 1px solid rgb(128, 128, 128);
 }
 
@@ -96,10 +97,6 @@ ul {
   flex-shrink: 0;
   flex-grow: 1;
   min-width: ;
-}
-
-ul > * {
-  padding: 10px 0;
 }
 
 .choose-button {
@@ -153,4 +150,8 @@ h2 + p {
 
 .bi {
   font-size: 25px;
+}
+
+ul > * {
+  padding: 10px 0;
 }
