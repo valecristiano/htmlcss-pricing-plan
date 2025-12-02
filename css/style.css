@@ -94,9 +94,8 @@ div.plan-duration {
   padding: 10px 30px;
   text-align: center;
   flex-basis: calc(900 / 3 - (5 * 2 / 3));
-  flex-shrink: 0;
   flex-grow: 1;
-  min-width: ;
+  min-width: 250px;
 }
 
 .choose-button {
@@ -152,10 +151,6 @@ h2 + p {
   font-size: 25px;
 }
 
-ul > * {
-  padding: 10px 0;
-}
-
 li.check::before {
   content: "✓";
   padding: 0 10px;
@@ -164,4 +159,20 @@ li.check::before {
 li.cross::before {
   content: "✕";
   padding: 0 10px;
+}
+
+ul.split {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li .split {
+  flex-grow: 1;
+  width: 100px;
+}
+
+ul > * {
+  padding: 10px 0;
+  flex-basis: 50%;
 }
