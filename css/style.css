@@ -155,3 +155,13 @@ h2 + p {
 ul > * {
   padding: 10px 0;
 }
+
+li.check::before {
+  content: "✓";
+  padding: 0 10px;
+}
+
+li.cross::before {
+  content: "✕";
+  padding: 0 10px;
+}
